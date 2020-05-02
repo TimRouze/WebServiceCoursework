@@ -56,6 +56,24 @@
 </nav>
 
 <div class="row">
+    <form class="col s6" action="index.php" method="POST">
+        <h3>News per page :</h3>
+        <p class="range-field">
+        <input name="viewNumber" id="viewNumber" type="range" min="1" max="100" />
+        </p>
+        <input type="hidden" name="action" value="changeViewsPerPage"/>
+        <script>setRangeDefault()</script>
+
+        <div class="row">
+            <button class="btn waves-effect waves-light">
+                Submit<i class="material-icons right">send</i>
+            </button>
+            <button type="button" onclick="setRangeDefault()" class="btn waves-effect waves-light">
+                Cancel<i class="material-icons right">cancel</i>
+            </button>
+        </div>
+    </form>
+    
     <form class="col s6 center-align" id="parseForm" method="POST" action="index.php">
         <h3>News Updater :</h3>
         <input type='hidden' name="action" value='newsUpdater'/>
