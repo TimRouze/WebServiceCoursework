@@ -1,3 +1,2 @@
 ---------- Admin password : ----------------
-- login : hilderic et mdp : 1234
-- login : timothé et mdp : 456
+- login : admin password: goodPassword

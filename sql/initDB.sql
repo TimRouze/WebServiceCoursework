@@ -20,9 +20,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 
 
 INSERT INTO `admin` (`login`, `password`) VALUES
-('hilderic', '$2y$10$uHK2t5KH4nbIe7KLhxUpauucS9/TZRHTFddbCcInK1YeWl0yOTpzS'),
-('tim', '$2y$10$kG6cQ.oI3KbP0139qtppSOnXrJw6g1kyySXwwCEWDoa2C2/xz54wi'),
-('admin', '0747f7aecd1572460c3c90c0c75cbdde641b1039190ade8538b0ed0c559070df');
+('admin', '$2y$10$kVdUzgj.H7R6Ut9u88Qd0uCjLPsWzOvnVQKzJCoVC69Jc4FCSdLMCf');
 
 
 DROP TABLE IF EXISTS `news`;
