@@ -32,7 +32,7 @@
         <div class="row">
             <image src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></image>
             <h3>MaterializeCss</h3>
-        </div>>
+        </div>
         <p>Materializecss</p>
     </div>
 </div>
@@ -42,7 +42,7 @@
         <div class="row">
             <image src="view/Images/AWS_logo.png" alt="Phpmyadmin logo"></image>
             <h3>AWS EC2</h3>
-        </div>>
+        </div>
         <p>AWS EC2</p>
     </div>
 </div>
