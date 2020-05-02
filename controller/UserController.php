@@ -34,7 +34,7 @@ class UserController{
                 $this->seeNews();
                 break;
             case 'aboutPage':
-                $this->aboutPage();
+                require($views['about']);
                 break;
             default:
                 $this->errors[] = "UserController undefinedAction : " . $action;
@@ -60,12 +60,6 @@ class UserController{
         $this->news = $newsModel->getNews($this->currentPage, $this->viewPerPage);
 
         require ($views['main']);
-    }
-
-    function aboutPage(){
-        global $views;
-
-        $this->currentAdminName = (new AdminModel())->getCurrentAdminName();
     }
 
     function computePagination(){
