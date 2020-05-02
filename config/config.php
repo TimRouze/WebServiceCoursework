@@ -8,5 +8,6 @@ $views['main']='view/main.php';
 $views['admin']='view/admin.php';
 $views['adminForm']='view/adminForm.php';
 $views['error']='view/error.php';
+$views['about']='view/about.php';
 
 $viewPerPagePath = "config/viewPerPage.txt";

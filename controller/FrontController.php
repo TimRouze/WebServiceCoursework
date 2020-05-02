@@ -21,7 +21,7 @@ class FrontController{
         global $views;
 
         $adminActions = array('addSite', 'changeViewsPerPage', 'deleteSite', 'goAdmin', 'newsUpdater');
-        $usersActions = array();
+        $usersActions = array('goAbout');
 
         switch ($action) {
             case null:
