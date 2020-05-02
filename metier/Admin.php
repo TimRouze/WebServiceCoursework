@@ -1,7 +1,5 @@
 <?php 
-/**
- * Class that simply describe what an admin is
- */
+
 class Admin {
   private $login;
   private $hashedPassword;

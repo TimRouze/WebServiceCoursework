@@ -1,8 +1,5 @@
 <script>
-    /**
-     * SETUP TOASTS
-     * Toasts are the little popup that appear when an action is done
-     */
+
     <?php if(isset($this->newSiteName)){ ?>
         Materialize.toast('Site <?php echo $this->newSiteName ?> added !', 4000, 'rounded');
     <?php } ?>
@@ -12,21 +9,14 @@
     <?php } ?>
     
     <?php if(isset($this->numberOfNewsAdded)){ ?>
-        Materialize.toast('News : <?php echo $this->numberOfNewsAdded ?> added !', 4000, 'rounded');
+        Materialize.toast('<?php echo $this->numberOfNewsAdded ?> news added !', 4000, 'rounded');
     <?php } ?>
 
-    /**
-     * This is for the number of view per page.
-     * This function set the range to the unchanged value
-     */
+
     function setRangeDefault(){
         document.getElementById("viewNumber").value = <?php echo $this->viewPerPage ?>;
     }
 
-    /**
-     * Function called when the admin click to delete a website.
-     * This JS avoid us to create a form in the html code. Thus making the code much more readable
-     */
     function handleDeleteClick(siteId){
         var form = document.createElement("form");
         var action = document.createElement("input"); 
@@ -35,12 +25,12 @@
         form.method = "POST";
         form.action = "index.php";   
 
-        // The action filed
+
         action.value="deleteSite";
         action.name="action";
         form.appendChild(action);
 
-        // The site id field
+
         newValue.value=siteId;
         newValue.name="siteId";
         form.appendChild(newValue);
@@ -124,4 +114,3 @@
     ?>
     </tbody>
 </table>
-<!-- ENDS  : TABLE -->

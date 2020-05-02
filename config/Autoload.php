@@ -1,9 +1,4 @@
 <?php
-/**
- * Class in charge of loading the needed class definitions across the whole project
- * Thus avoiding to include each time we create a new class object
- * To make it work, the folder where the class are needs to be defined manually. See _autoload $dir =array()
- */
 class Autoload
 {
         private static $_instance = null;
@@ -39,8 +34,7 @@ class Autoload
         $filename = $class.'.php';
         $dir =array('model/','./','config/','DAO/', 'metier/', 'controller/', 'tools/');
         foreach ($dir as $d){
-        $file=$d.$filename; 
-        //echo $file;
+        $file=$d.$filename;
         if (file_exists($file))
         {
             include $file;

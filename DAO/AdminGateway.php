@@ -1,7 +1,4 @@
 <?php
-/**
- * NewsGateway : class in charge in doing SQL request to the DB on the admin table
- */
 class AdminGateway{
     private $connexion;
 
@@ -10,11 +7,6 @@ class AdminGateway{
         $this->connexion = new Connection($dbInfo, $dbUser, $dbPassword);
     }
 
-	/** 
-	 * Get an Admin object by this username
-	 * @param string $userName 
-	 * @return Admin
-	*/ 
     function getAdminByUsername(string $userName){
         $query = "Select * From admin Where login = :login";
         $this->connexion->executeQuery($query, array(':login'=>array($userName, PDO::PARAM_STR)));

@@ -1,9 +1,6 @@
 <?php
  
-/**
- * Classe parsant un fichier xml et affichant les informations sous la forme
- * d'une hierarchie de texte
- */
+
 class XMLFileParser {
     private $rssFile;
     private $result;
@@ -19,9 +16,7 @@ class XMLFileParser {
         return $this->result;
     }
      
-    /**
-     * Parse le fichier et met le resultat dans Result
-     */
+
     public function parse()
     {
         ob_start();
@@ -30,7 +25,6 @@ class XMLFileParser {
         xml_set_element_handler($xml_parser, "startElement", "endElement");
         xml_set_character_data_handler($xml_parser, 'characterData');
 
-        // Convert the rss string to a file
         $stream = fopen('php://memory','r+');
         fwrite($stream, $this->rssFile);
         rewind($stream);

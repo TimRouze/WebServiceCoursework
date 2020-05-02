@@ -1,24 +1,14 @@
 <?php
 
-/**
- * NewsGateway : class in charge in doing SQL request to the DB on the news table
- */
 class NewsGateway{
   private $connexion;
 
   function __construct(){
     global $dbInfo, $dbUser, $dbPassword;
 
-    // Mutliples connexion instances are created for every gateway, but we don't care, it's not a problem
     $this->connexion = new Connection($dbInfo, $dbUser, $dbPassword);
   }
 
-	/** 
-	 * Get news by page and knowing how many news each page should have
-	 * @param int $page 
-   * @param int $sitePerPage
-	 * @return array[News]
-	*/ 
   function getNewsByPage(int $page, int $sitePerPage){
     $query = "SELECT * from news ORDER BY date DESC LIMIT :limit OFFSET :offset";
     
@@ -35,10 +25,6 @@ class NewsGateway{
     return $news;
   }
 
-	/** 
-	 * Count the number of news in DB
-	 * @return int
-	*/ 
   function countNews(){
       $query = "SELECT COUNT(*) from news";
 
@@ -48,11 +34,6 @@ class NewsGateway{
       
   }
 
-	/** 
-	 * Add a news in the DB knowing it's origin with a website id
-   * @param News $news 
-   * @param int $idSite 
-	*/ 
   function addNews(News $news, int $idSite){
     $query = "INSERT INTO news VALUES(
       NULL,
@@ -76,11 +57,6 @@ class NewsGateway{
     ));
   }
 
-	/** 
-	 * Add a news in the DB knowing it's origin with a website id
-   * @param Sites $site 
-   * @return string date
-	*/ 
   function getLastNewsDateFrom(Sites $site){
     $query = "SELECT date FROM news WHERE id_Site = :idSite ORDER BY date DESC";
     $this->connexion->executeQuery($query, array(

@@ -1,7 +1,5 @@
 <?php 
-/**
- * Class that simply describe what a news is
- */
+
 class News {
   private $date;
   private $siteName;

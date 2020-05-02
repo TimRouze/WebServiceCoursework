@@ -1,7 +1,5 @@
 <?php 
-/**
- * Class that simply describe what a sites is
- */
+
 class Sites {
   private $id;
   private $siteName;

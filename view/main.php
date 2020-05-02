@@ -1,4 +1,3 @@
-<!-- NAV -->
 <nav>
   <div class="nav-wrapper">
     <a href="" class="brand-logo">Nebulae flux</a>
@@ -24,9 +23,7 @@
     </ul>
   </div>
 </nav>
-<!-- END : NAV -->
 
-<!-- TABLE -->
 <table class="z-depth-3 bordered highlight responsive-table">
   <thead>
     <tr>
@@ -59,14 +56,11 @@
     ?>
   </tbody>
 </table>
-<!-- ENDS  : TABLE -->
 
-<!-- PAGINATION -->
 <div style="">
   <ul class="pagination center-align">
       <?php
         foreach($this->pages  as $page){
-          // If this page numler is the current page, apply active style class to it
           $active = $page == $this->currentPage ? 'active' : '';
 
           echo "<li class=".$active."><a href='index.php?p=".$page."'>".$page."</a></li>";
@@ -74,6 +68,5 @@
       ?>
   </ul>
 </div>
-<!-- END : PAGINATION -->
 
 

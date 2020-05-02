@@ -14,7 +14,7 @@
 
 <form class="col s12" method="POST" action='index.php' id='adminConnectForm'>
     <div class="input-field col s12">
-        <label for = "userName"> UserName: </label>
+        <label for = "userName"> Username: </label>
         <input name='userName' type="text" id="userName"/>
         <error style="color: red"><?php echo $this->errors['userName'] ?? ''; ?></error>
     </div>
