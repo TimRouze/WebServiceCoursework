@@ -33,7 +33,7 @@ class UserController{
             case null:
                 $this->seeNews();
                 break;
-            case 'goAbout':
+            case 'aboutPage':
                 $this->aboutPage();
                 break;
             default:
