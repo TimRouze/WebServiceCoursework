@@ -30,7 +30,7 @@
 <div class="row">
     <div class="col s6">
         <h3>Materialize CSS</h3>
-        <image src="Images/materialize_logo.png" alt="MaterializeCss logo"></image>
+        <image src="view/Images/materialize_logo.png" alt="MaterializeCss logo"></image>
         <p>Materializecss</p>
     </div>
 </div>
@@ -38,7 +38,7 @@
 <div class="row">
     <div class="col s6">
         <h3>AWS EC2</h3>
-        <image src="Images/AWS_logo.png" alt="Amazon web service logo"></image>
+        <image src="view/Images/AWS_logo.png" alt="Amazon web service logo"></image>
         <p>AWS EC2</p>
     </div>
 </div>
@@ -46,7 +46,7 @@
 <div class="row">
     <div class="col s6">
         <h3>PhpMyAdmin</h3>
-        <image src="Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></image>
+        <image src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></image>
         <p>PhpMyAdmin</p>
     </div>
 </div>
