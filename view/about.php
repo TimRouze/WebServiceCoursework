@@ -93,7 +93,7 @@
     <div class="col s12 m4 l2"></div>
 </div>
 
-<div class="divider"></div>
+<div class="divider col s8"></div>
 
     <div class="row" style="margin-top=10px">
         <div class="col s12 m4 l4"></div>
