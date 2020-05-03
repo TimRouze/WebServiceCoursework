@@ -18,7 +18,7 @@
   </div>
 </nav>
 
-<div class="row">
+<div class="row center-block">
     <div class="col s7">
         <h3>Goal of this website:</h3>
         <p>The purpose of this websystem is to give to user a readable list of selected RSS feeds.
@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row center-block">
     <div class="col s7">
         <div class="col s6"><image src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></image></div>
         <div class="col s6"><h3>MaterializeCss</h3></div>
@@ -36,7 +36,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row center-block">
     <div class="col s7">
         <div class="col s6"><image src="view/Images/AWS_logo.png" alt="Phpmyadmin logo"></image></div>
         <div class="col s6"><h3>AWS EC2</h3></div>
@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<div class="row">
+<div class="row center-block">
     <div class="col s7">
         <div class="col s6"><image src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></image></div>
         <div class="col s6"><h3>Phpmyadmin</h3></div>
