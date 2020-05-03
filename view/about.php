@@ -19,9 +19,9 @@
 </nav>
 
 <div class="row">
-    <div class="col s12 m4 l12"></div>
+    <div class="col s12 m4 l2"></div>
     <div class="col s12 m4 l8">
-        <h3 style="text-align:center">Goal of this website:</h3>
+        <h2 style="text-align:center">Goal of this website:</h2>
         <p style="text-align:center">The purpose of this websystem is to give to user a readable list of selected RSS feeds.
         Administrators can add or delete websites from the list to restrain or improve the feed selection.
         They can also change the number of news displayed per page and they can also refresh the feed manually.</p>
