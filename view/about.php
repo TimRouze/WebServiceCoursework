@@ -60,7 +60,24 @@
 <div class="row">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4">
-        <image src="view/Images/AWS_logo.png" alt="Phpmyadmin logo"></image>
+        <image src="view/Images/mySql_logo.png" alt="MySQL logo"></image>
+        <h3 style="text-align:center">MySQL</h3>
+    </div>
+    <div class="col s12 m4 l4"></div>
+</div>
+<div class="row">
+    <div class="col s12 m4 l2"></div>
+    <div class="col s12 m4 l8">
+        <p style="text-align:center"><a href="https://www.mysql.com/en/">MySql</a> is a database management system. It uses SQL as primary language and
+        is open source.</p>
+    </div>
+    <div class="col s12 m4 l2"></div>
+</div>
+
+<div class="row">
+    <div class="col s12 m4 l4"></div>
+    <div class="col s12 m4 l4">
+        <image src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></image>
         <h3 style="text-align:center">Phpmyadmin</h3>
     </div>
     <div class="col s12 m4 l4"></div>
