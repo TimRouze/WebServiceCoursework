@@ -37,7 +37,7 @@
 
 <div class="divider"></div>
 
-<div class="row">
+<div class="row" style="margin-top:50px">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
         <img  src="view/Images/materialize_logo.png" alt="Materialize css logo"/>
@@ -57,7 +57,7 @@
 
 <div class="divider"></div>
 
-<div class="row">
+<div class="row" style="margin-top:50px">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
         <img src="view/Images/AWS_logo.png" alt="Amazon web service logo"/>
@@ -76,7 +76,7 @@
 
 <div class="divider"></div>
 
-<div class="row">
+<div class="row" style="margin-top:50px">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
         <img src="view/Images/mySql_logo.png" alt="MySQL logo"/>
