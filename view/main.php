@@ -27,6 +27,12 @@
           
         </form>
       </li>
+      <li>
+        <form id="goAbout" method="POST" action="index.php">
+          <input type="hidden" name="action" value="aboutPage"/>
+          <i class="small material-icons">info_outline</i>
+        </form>
+      </li>
     </ul>
   </div>
 </nav>
