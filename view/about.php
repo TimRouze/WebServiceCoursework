@@ -55,9 +55,9 @@
 
 <div class="row">
     <div class="col s12 m4 l4"></div>
-    <div class="col s12 m4 l4">
-        <img style="text-align:center" src="view/Images/AWS_logo.png" alt="Amazon web service logo"></img>
-        <h3 style="text-align:center">AWS EC2</h3>
+    <div class="col s12 m4 l4" style="text-align:center">
+        <img src="view/Images/AWS_logo.png" alt="Amazon web service logo"></img>
+        <h3>AWS EC2</h3>
     </div>
     <div class="col s12 m4 l4"></div>
 </div>
@@ -72,9 +72,9 @@
 
 <div class="row">
     <div class="col s12 m4 l4"></div>
-    <div class="col s12 m4 l4">
-        <img style="text-align:center" src="view/Images/mySql_logo.png" alt="MySQL logo"></img>
-        <h3 style="text-align:center">MySQL</h3>
+    <div class="col s12 m4 l4" style="text-align:center">
+        <img src="view/Images/mySql_logo.png" alt="MySQL logo"></img>
+        <h3>MySQL</h3>
     </div>
     <div class="col s12 m4 l4"></div>
 </div>
@@ -89,9 +89,9 @@
 
 <div class="row">
     <div class="col s12 m4 l4"></div>
-    <div class="col s12 m4 l4">
-        <img style="text-align:center" src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></img>
-        <h3 style="text-align:center">Phpmyadmin</h3>
+    <div class="col s12 m4 l4" style="text-align:center">
+        <img src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></img>
+        <h3>Phpmyadmin</h3>
     </div>
     <div class="col s12 m4 l4"></div>
 </div>
