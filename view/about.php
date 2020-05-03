@@ -45,10 +45,16 @@
     <div class="col s12 m4 l4 center-block">
         <image src="view/Images/AWS_logo.png" alt="Phpmyadmin logo"></image>
         <h3>AWS EC2</h3>
+    </div>
+    <div class="col s12 m4 l4"></div>
+</div>
+<div class="row">
+    <div class="col s12 m4 l2"></div>
+    <div class="col s12 m4 l8">
         <p><a href="https://aws.amazon.com/">Amazon Web Service</a> is a powerful platform specialised in on demand cloud computing services. AWS offers APIs, Databases, Virtual machines, etc... 
         Amazon web services where used on the project for the hosting part of the website to make it accessible from everywhere. </p>
     </div>
-    <div class="col s12 m4 l4"></div>
+    <div class="col s12 m4 l2"></div>
 </div>
 
 <div class="row center-block">
