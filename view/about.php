@@ -47,7 +47,7 @@
 <div class="row">
     <div class="col s12 m4 l2"></div>
     <div class="col s12 m4 l8" style="text-align:center">
-        <p style="font-size:20px"><a href="https://materializecss.com/">Materialize CSS</a> is a library that allows for visually appealing designs for websites.
+        <p style="font-size:17px"><a href="https://materializecss.com/">Materialize CSS</a> is a library that allows for visually appealing designs for websites.
         It is easy to use and follows standards to give consistent design to web applications.</p>
         </div>
     <div class="col s12 m4 l2"></div>
@@ -64,7 +64,7 @@
 <div class="row">
     <div class="col s12 m4 l2"></div>
     <div class="col s12 m4 l8" style="text-align:center">
-        <p style="font-size:20px"><a href="https://aws.amazon.com/">Amazon Web Service</a> is a powerful platform specialised in on demand cloud computing services. AWS offers APIs, Databases, Virtual machines, etc... 
+        <p style="font-size:17px"><a href="https://aws.amazon.com/">Amazon Web Service</a> is a powerful platform specialised in on demand cloud computing services. AWS offers APIs, Databases, Virtual machines, etc... 
         Amazon web services where used on the project for the hosting part of the website to make it accessible from everywhere. </p>
     </div>
     <div class="col s12 m4 l2"></div>
@@ -81,7 +81,7 @@
 <div class="row">
     <div class="col s12 m4 l2"></div>
     <div class="col s12 m4 l8" style="text-align:center">
-        <p style="font-size:20px"><a href="https://www.mysql.com/en/">MySql</a> is a database management system. It uses SQL as primary language and
+        <p style="font-size:17px"><a href="https://www.mysql.com/en/">MySql</a> is a database management system. It uses SQL as primary language and
         is open source.</p>
     </div>
     <div class="col s12 m4 l2"></div>
@@ -98,7 +98,7 @@
 <div class="row">
     <div class="col s12 m4 l2"></div>
     <div class="col s12 m4 l8" style="text-align:center">
-        <p style="font-size:20px"><a href="https://www.phpmyadmin.net/">Phpmyadmin</a> is a free software tool that allows to handle the administration of MySQL over the Web.
+        <p style="font-size:17px"><a href="https://www.phpmyadmin.net/">Phpmyadmin</a> is a free software tool that allows to handle the administration of MySQL over the Web.
         phpMyAdmin supports a wide range of operations on MySQL and MariaDB and offers a practical user interface to perform operations on a DB.</p>
     </div>
     <div class="col s12 m4 l2"></div>
