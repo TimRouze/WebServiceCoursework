@@ -37,9 +37,9 @@
 
 <div class="row">
     <div class="col s12 m4 l4"></div>
-    <div class="col s12 m4 l4">
-        <img style="text-align:center" src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></img>
-        <h3 style="text-align:center">MaterializeCss</h3>
+    <div class="col s12 m4 l4" style="text-align:center">
+        <img  src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></img>
+        <h3>MaterializeCss</h3>
         
     </div>
     <div class="col s12 m4 l4"></div>
