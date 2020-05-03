@@ -37,7 +37,7 @@
 
 <div class="divider"></div>
 
-<div class="row" style="margin-top:50px">
+<div class="row">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
         <img  src="view/Images/materialize_logo.png" alt="Materialize css logo"/>
@@ -61,7 +61,6 @@
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
         <img src="view/Images/AWS_logo.png" alt="Amazon web service logo"/>
-        <h3>AWS EC2</h3>
     </div>
     <div class="col s12 m4 l4"></div>
 </div>
@@ -80,7 +79,6 @@
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
         <img src="view/Images/mySql_logo.png" alt="MySQL logo"/>
-        <h3>MySQL</h3>
     </div>
     <div class="col s12 m4 l4"></div>
 </div>
@@ -99,7 +97,6 @@
         <div class="col s12 m4 l4"></div>
         <div class="col s12 m4 l4" style="text-align:center">
             <img src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"/>
-            <h3>Phpmyadmin</h3>
         </div>
         <div class="col s12 m4 l4"></div>
     </div>
