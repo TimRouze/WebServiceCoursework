@@ -35,6 +35,8 @@
     <div class="col s12 m4 l2"></div>
 </div>
 
+<div class="divider"></div>
+
 <div class="row">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
@@ -53,6 +55,8 @@
     <div class="col s12 m4 l2"></div>
 </div>
 
+<div class="divider"></div>
+
 <div class="row">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
@@ -70,6 +74,8 @@
     <div class="col s12 m4 l2"></div>
 </div>
 
+<div class="divider"></div>
+
 <div class="row">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
@@ -86,6 +92,8 @@
     </div>
     <div class="col s12 m4 l2"></div>
 </div>
+
+<div class="divider"></div>
 
 <div class="row">
     <div class="col s12 m4 l4"></div>
