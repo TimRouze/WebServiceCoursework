@@ -23,14 +23,8 @@
       <li>
         <form id="goAbout" method="POST" action="index.php">
           <input type='hidden' name="action" value='aboutPage'/>
-          <a href="#" onclick="document.getElementById('goAbout').submit()">About</a>
+          <a href="#" onclick="document.getElementById('goAbout').submit()">About</a><i class="small material-icons">info_outline</i>
           
-        </form>
-      </li>
-      <li>
-        <form id="goAbout" method="POST" action="index.php">
-          <input type="hidden" name="action" value="aboutPage"/>
-          <i class="small material-icons">info_outline</i>
         </form>
       </li>
     </ul>
