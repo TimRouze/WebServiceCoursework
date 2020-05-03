@@ -10,7 +10,7 @@
             <form id="adminDisconnect" method="POST" action="index.php">
 
                 <input type='hidden' name="action" value='adminDisconnect'/>
-                <a href="#" onclick="document.getElementById('adminDisconnect').submit()">Disconnect</a>
+                <a href="#" onclick="document.getElementById('adminDisconnect').submit()"><i class="small material-icons right">cancel</i>Disconnect</a>
             </form>
         </li>
       <?php } ?>
