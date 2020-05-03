@@ -95,7 +95,7 @@
 
 <div class="divider"></div>
 
-    <div class="row" style="padding-top=100px">
+    <div class="row" style="margin-top:50px">
         <div class="col s12 m4 l4"></div>
         <div class="col s12 m4 l4" style="text-align:center">
             <img src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"/>
