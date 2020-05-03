@@ -30,20 +30,14 @@
 </div>
 
 <div class="row">
-    <div class="col s12 m4 l2"><p>s12 m4</p></div>
-    <div class="col s12 m4 l8"><p>s12 m4</p></div>
-    <div class="col s12 m4 l2"><p>s12 m4</p></div>
-  </div>
-
-<div class="row">
-    <div class="col s12 m4 l2"></div>
-    <div class="col s12 m4 l8">
+    <div class="col s12 m4 l4"></div>
+    <div class="col s12 m4 l4">
         <image src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></image>
         <h3>MaterializeCss</h3>
         <p><a href="https://materializecss.com/">Materialize CSS</a> is a library that allows for visually appealing designs for websites.
         It is easy to use and follows standards to give consistent design to web applications.</p>
     </div>
-    <div class="col s12 m4 l2"></div>
+    <div class="col s12 m4 l4"></div>
 </div>
 
 <div class="row">
