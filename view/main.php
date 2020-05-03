@@ -17,7 +17,7 @@
       <li>
         <form id="adminConnect" method="POST" action="index.php">
             <input type='hidden' name="action" value='goAdmin'/>
-            <a href="#" onclick="document.getElementById('adminConnect').submit()">Go Admin page</a>
+            <a href="#" onclick="document.getElementById('adminConnect').submit()"><i class="small material-icons">settings</i>Go Admin page</a>
         </form>
       </li>
       <li>

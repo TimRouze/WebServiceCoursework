@@ -48,7 +48,7 @@
             <li>
                 <form id="backToNews" method="POST" action="index.php">
                     <input type='hidden' name="action" value=''/>
-                    <a href="#" onclick="document.getElementById('backToNews').submit()">Go back to News</a>
+                    <a href="#" onclick="document.getElementById('backToNews').submit()"><i class="small material-icons">rss_feed</i>Go back to News</a>
                 </form>
             </li>
         </ul>
