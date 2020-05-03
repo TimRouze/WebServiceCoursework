@@ -40,9 +40,7 @@
 <div class="row">
     <div class="col s12 m4 l4"></div>
     <div class="col s12 m4 l4" style="text-align:center">
-        <img  src="view/Images/materialize_logo.png" alt="Materialize css logo"/>
-        <h3>MaterializeCss</h3>
-        
+        <img  src="view/Images/materialize_logo.png" alt="Materialize css logo"/>        
     </div>
     <div class="col s12 m4 l4"></div>
 </div>
