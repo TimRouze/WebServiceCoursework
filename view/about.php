@@ -29,30 +29,24 @@
 
 <div class="row">
     <div class="col s6">
-        <div class="row">
-            <image src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></image>
-            <h3>MaterializeCss</h3>
-        </div>
+        <div class="col s6"><image src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></image></div>
+        <div class="col s6"><h3>MaterializeCss</h3></div>
         <p>Materializecss</p>
     </div>
 </div>
 
 <div class="row">
     <div class="col s6">
-        <div class="row">
-            <image src="view/Images/AWS_logo.png" alt="Phpmyadmin logo"></image>
-            <h3>AWS EC2</h3>
-        </div>
+        <div class="col s6"><image src="view/Images/AWS_logo.png" alt="Phpmyadmin logo"></image></div>
+        <div class="col s6"><h3>AWS EC2</h3></div>
         <p>AWS EC2</p>
-    </div>
+    </div>>
 </div>
 
 <div class="row">
     <div class="col s6">
-        <div class="row">
-            <image src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></image>
-            <h3>PhpMyAdmin</h3>
-        </div>
-        <p>PhpMyAdmin</p>
-    </div>
+        <div class="col s6"><image src="view/Images/phpmyadmin_logo.png" alt="Phpmyadmin logo"></image></div>
+        <div class="col s6"><h3>Phpmyadmin</h3></div>
+        <p>Phpmyadmin</p>
+    </div>>
 </div>
