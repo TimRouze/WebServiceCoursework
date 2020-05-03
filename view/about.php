@@ -112,3 +112,21 @@ This program is free software; you can redistribute it and/or modify it under th
         </div>
         <div class="col s12 m4 l2"></div>
     </div>
+
+<div class="divider"></div>
+
+    <div class="row" style="margin-top:50px">
+        <div class="col s12 m4 l4"></div>
+        <div class="col s12 m4 l4" style="text-align:center">
+            <img src="view/Images/apache_logo.png" alt="Apache logo"/>
+        </div>
+        <div class="col s12 m4 l4"></div>
+    </div>
+    <div class="row">
+        <div class="col s12 m4 l2"></div>
+        <div class="col s12 m4 l8" style="text-align:center">
+            <p style="font-size:17px"><a href="https://www.apache.org/">Apache</a> is a free cross-platform web server software. It allows for server hosting mostly on Linux but it is also available for Windows.</p>
+            <p style="font-size:17px"> Apache is free and open-source, it is released under the terms of Apache License 2.0.</p>
+        </div>
+        <div class="col s12 m4 l2"></div>
+    </div>
