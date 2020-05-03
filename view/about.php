@@ -19,9 +19,15 @@
 </nav>
 
 <div class="row">
+    <div class="col s12 m4 l4"></div>
+    <div class="col s12 m4 l4">
+        <h3 style="text-align:center">Goal of this website:</h3>
+        </div>
+    <div class="col s12 m4 l4"></div>
+</div>
+<div class="row">
     <div class="col s12 m4 l2"></div>
     <div class="col s12 m4 l8">
-        <h2 style="text-align:center">Goal of this website:</h2>
         <p style="text-align:center">The purpose of this websystem is to give to user a readable list of selected RSS feeds.
         Administrators can add or delete websites from the list to restrain or improve the feed selection.
         They can also change the number of news displayed per page and they can also refresh the feed manually.</p>
@@ -34,10 +40,17 @@
     <div class="col s12 m4 l4">
         <image src="view/Images/materialize_logo.png" alt="Phpmyadmin logo"></image>
         <h3 style="text-align:center">MaterializeCss</h3>
-        <p style="text-align:center"><a href="https://materializecss.com/">Materialize CSS</a> is a library that allows for visually appealing designs for websites.
-        It is easy to use and follows standards to give consistent design to web applications.</p>
+        
     </div>
     <div class="col s12 m4 l4"></div>
+</div>
+<div class="row">
+    <div class="col s12 m4 l2"></div>
+    <div class="col s12 m4 l8">
+        <p style="text-align:center"><a href="https://materializecss.com/">Materialize CSS</a> is a library that allows for visually appealing designs for websites.
+        It is easy to use and follows standards to give consistent design to web applications.</p>
+        </div>
+    <div class="col s12 m4 l2"></div>
 </div>
 
 <div class="row">
