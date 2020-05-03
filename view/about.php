@@ -40,9 +40,9 @@
     <div class="col s12 m4 l4"></div>
 </div>
 
-<div class="row">
+<div class="row center-block">
     <div class="col s12 m4 l4"></div>
-    <div class="col s12 m4 l4 center-block">
+    <div class="col s12 m4 l4">
         <image src="view/Images/AWS_logo.png" alt="Phpmyadmin logo"></image>
         <h3>AWS EC2</h3>
     </div>
